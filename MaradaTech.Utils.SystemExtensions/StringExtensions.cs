@@ -10,7 +10,7 @@
         /// </summary>
         /// <param name="s">The string to process.</param>
         /// <param name="value">The specified length.</param>
-        /// <returns><see cref="true"/> if the length of the string exceeds the value, false otherwise.</returns>
+        /// <returns>true if the length of the string exceeds the value, false otherwise.</returns>
         public static bool IslongerThan(this string s, uint value)
         {
             return s.Length > value;
