@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaradaTech.Utils.SystemExtensions", "MaradaTech.Utils.SystemExtensions\MaradaTech.Utils.SystemExtensions.csproj", "{893EB4B9-4E54-4F54-9590-80B9761117FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaradaTech.Utils.SystemExtensions.IO", "MaradaTech.Utils.System.IOExtensions\MaradaTech.Utils.SystemExtensions.IO.csproj", "{A10A0579-545D-4824-A9C4-3B93EAB6A6AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{893EB4B9-4E54-4F54-9590-80B9761117FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893EB4B9-4E54-4F54-9590-80B9761117FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{893EB4B9-4E54-4F54-9590-80B9761117FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10A0579-545D-4824-A9C4-3B93EAB6A6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10A0579-545D-4824-A9C4-3B93EAB6A6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10A0579-545D-4824-A9C4-3B93EAB6A6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10A0579-545D-4824-A9C4-3B93EAB6A6AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D3247D3-9967-4317-B707-D4909E242646}
 	EndGlobalSection
 EndGlobal
