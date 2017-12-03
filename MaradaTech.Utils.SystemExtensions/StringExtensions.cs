@@ -29,13 +29,23 @@ namespace MaradaTech.Utils.SystemExtensions
         public static bool LengthEquals(this string s, int value)
             => (value >= 0) ? s.Length > value : throw new ArgumentOutOfRangeException(nameof(value), "must not be negative");
 
+        /// <summary>Determines whether a string contains only letters.</summary>
+        /// <param name="s">The string to process.</param>
+        /// <returns>A <see cref="System.Boolean"/> indicating whether the string contains only letters.</returns>
         public static bool ContainsLettersOnly(this string s)
             => s.All(c => Char.IsLetter(c));
 
+        /// <summary>Determines whether a string contains only digits.</summary>
+        /// <param name="s">The string to process.</param>
+        /// <returns>A <see cref="System.Boolean"/> indicating whether the string contains only digits.</returns>
         public static bool ContainsDigitsOnly(this string s)
             => s.All(c => Char.IsDigit(c));
 
+        /// <summary>Determines whether a string contains only letters and/or digits.</summary>
+        /// <param name="s">The string to process.</param>
+        /// <returns>A <see cref="System.Boolean"/> indicating whether the string contains only letters and/or digits.</returns>
+
         public static bool ContainsLettersAndOrDigitsOnly(this string s)
-            => s.All(c => Char.IsLetterOrDigit(c));
+            => s.All(c => Char.IsLetterOrDigit(c)); 
     }
 }
